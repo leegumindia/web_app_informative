@@ -1,18 +1,18 @@
-.sec4{
+.social-media{
     height:auto;
+     
     background-color: rgb(68, 133, 58);
     color:white;
     
 }
 
-
-.share-list {
+.social-media-contacts {
     display: flex;
     flex-direction: row;
   }
   
-  .share-list a {
-    border-radius: 100px;
+  .social-media-contacts a {
+    
     width: 70px;
     height: 70px;
     padding: 7px;
@@ -22,7 +22,7 @@
     
   }
 
-  .share-list img {
+  .social-media-contacts img {
       width: 100%;
       height: 100%;
       filter: invert(100%);
@@ -43,13 +43,13 @@
     box-sizing: border-box;
   }
   
-  .share-buttons-container {
+  .buttons-container {
     display: flex;
     justify-content: center;
     align-items: center;
   /*  background: #28a745;;*/
     width: 100%;
-    height: 10%;
+    height: 30%;
   }
 
 
