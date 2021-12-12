@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 body{
-/*     width: 100%; */
+    width: 100%;
 /*     height: auto; */
     margin: 0;
     padding: 0;
@@ -379,9 +379,9 @@ section.content{
 @keyframes animate{
     0%{content:'Groceries';}
     30%{content:'Medicines';}
-/*     50%{content:'Dairy Products';}
-    70% {content : 'Fruits and Vegetables';}
-    100% {content: 'All your Daily Needs';} */
+    50%{content:'Dairy Products';}
+    70% {content :'Fruits and Vegetables';}
+    100% {content:'All your Daily Needs';}
 }
 
 #shopImage {
