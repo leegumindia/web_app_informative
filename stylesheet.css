@@ -9,7 +9,7 @@ body{
     position: relative;
     font-family: sans-serif;
     font-size: 10px;
-   /* flex-wrap: wrap;*/
+    flex-wrap: wrap;
   /*  overflow-y: visible;
     overflow-x: hidden;*/
     overflow : scroll;
