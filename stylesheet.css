@@ -25,6 +25,11 @@ body{
     width: fit-content;
     padding-top: 16px;
 }
+@media screen and (max-width:750px){
+  .top-logo {
+    padding-right: 40px;
+  }
+}
 
 .nav{
     position: -webkit-sticky;
@@ -54,6 +59,14 @@ body{
   }
   
 }
+.col-sm-app img{
+  height: fit-content;
+  width: 600px;
+}
+.col-sm-img img{
+  height: 240px;
+  width: fit-content;
+}
 .column ,.column1 ,.column2{
   flex: 25%;
   max-width: 25%;
@@ -72,7 +85,7 @@ body{
 .column1 img{
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
+  width: fit-content;
   height: 10rem;
   width: 13rem;
  }
@@ -307,12 +320,12 @@ nav ul li a.active{
 }
 
 @keyframes animate{
-    0%{content:'Groceries';}
-    30%{content:'Medicines';}
-    50%{content:'Dairy Products';}
-    60%{content:'Fruits';}
-    70%{content:'Vegetables';}
-    100%{content:'All Daily Needs';}
+    0%{content:'Groceries'; font-size: 40px;  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    20%{content:'Medicines'; font-size: 40px;  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    40%{content:'Dairy'; font-size: 40px;  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    60%{content:'Fruits'; font-size: 40px;  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    75%{content:'Vegetables'; font-size: 40px;  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    100%{content:'Daily Needs'; font-size: 40px;  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 }
 
 #shopImage {
