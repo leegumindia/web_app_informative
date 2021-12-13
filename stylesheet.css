@@ -4,7 +4,7 @@ body{
     padding: 0;
     font-family: sans-serif;
     flex-wrap: wrap;
-    overflow-x: wrap;
+    overflow-x: hidden;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -82,6 +82,12 @@ body{
   width: fit-content;
   height: 10rem;
   /* width: 13rem; */
+}
+@media screen and (max-width: 600px){
+  .column , .column1 ,.column2, .row, .container{
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 /* #leegumDesc{
    padding-top: 15vh;
@@ -217,13 +223,19 @@ nav ul li a.active{
 }
 }
 
+.sec1{
+  display: flex;
+  flex-wrap: nowrap;
+  height: auto;
+}
 
-section.sec1{
+/* section.sec1{
     width:100vw;
     height: 75vh;
     background-size: cover;
-    /* svg viewBox="0"; */
-}
+    comment below code when uncommenting
+    svg viewBox="0";
+} */
 
 .wrapper{
      width:50vw; 
@@ -273,10 +285,11 @@ section.sec1{
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }   
 }
-.screenshot-image img{
+
+/* .screenshot-image img{
     height: 500px;
     width:auto;
-}
+} */
 
 #span1:before{
     content:'';
@@ -294,15 +307,12 @@ section.sec1{
 }
 
 @keyframes animate{
-    0%{
-        content:'Order';
-    }
-
-
-    75%{
-        content:'PickUp';}
-    100%{
-        content:'Order';}
+    0%{content:'Groceries';}
+    30%{content:'Medicines';}
+    50%{content:'Dairy Products';}
+    60%{content:'Fruits';}
+    70%{content:'Vegetables';}
+    100%{content:'All Daily Needs';}
 }
 
 #shopImage {
